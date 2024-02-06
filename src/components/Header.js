@@ -1,12 +1,13 @@
-import React from "react";
+// Header.js
 
-function Header(props) {
-      return (
-        <h1>
-          {/* uncomment the line below to pass the test */}
-          {/* hello from the Header! */}
-        </h1>
-      )
+import React from 'react';
+
+function Header() {
+  return (
+    <div>
+      <h1>hello from the Header!</h1>
+    </div>
+  );
 }
 
 export default Header;
